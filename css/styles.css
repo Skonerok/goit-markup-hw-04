@@ -192,6 +192,17 @@ align-items: center;
   gap: 30px;
 }
 
+.benefits-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
 .benefits-item {
 flex-basis: calc((100% - 30px) / 4);
 }
@@ -281,6 +292,10 @@ flex-basis: calc((100% - 30px) / 4);
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   color: var(--prevailing-color);
+}
+
+.icons-social {
+
 }
 
 /* FOOTER SECTION */
