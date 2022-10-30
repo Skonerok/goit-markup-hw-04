@@ -118,6 +118,12 @@ align-items: center;
     gap: 50px;
 }
 
+/* .icon-header {
+  vertical-align: middle;
+  margin-right: 10px;
+  fill: currentColor;
+} */
+
 .contact-link {
   display: block;
   font-weight: 500;
@@ -136,6 +142,13 @@ align-items: center;
   background: var(--background-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../images/hero-image.jpg);
+      width: 1600px;
+margin-left: 200px;
+margin-right: 200px;
 }
 
 .hero-title {
@@ -271,6 +284,8 @@ flex-basis: calc((100% - 30px) / 4);
 .team-card {
   background-color:var(--main-background-color);
   flex-basis: calc((100% - 30px *3) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-wrapper {
@@ -295,7 +310,39 @@ flex-basis: calc((100% - 30px) / 4);
 }
 
 .icons-social {
+/* display: flex;
+margin-top: 16px;
+align-items: center;
+justify-content: center;
+gap: 10px;
+margin-left: auto;
+margin-right: auto; */
+}
 
+/* OUR CLIENTS */
+.clients-header {
+  font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.clients-box {
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.client-items {
 }
 
 /* FOOTER SECTION */
@@ -333,6 +380,12 @@ address {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* .social-contacts {
+  display: flex;
+  justify-content: center;
+
+} */
 
 /* PORTFOLIO PAGE */
 
