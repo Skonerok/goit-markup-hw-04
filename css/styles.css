@@ -411,8 +411,6 @@ address {
 }
 
 .social-contacts {
-  display: flex;
-  justify-content: center;
   margin-left: 70px;
 }
 
@@ -423,7 +421,12 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-color);
-  margin-bottom: 20px;
+}
+
+.social-list-join {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .social-link-join {
